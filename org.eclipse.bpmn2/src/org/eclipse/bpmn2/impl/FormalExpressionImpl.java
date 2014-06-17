@@ -157,7 +157,7 @@ public class FormalExpressionImpl extends ExpressionImpl implements FormalExpres
      */
     public void setBody(String newBody) {
         getMixed().clear();
-        getMixed().add(XMLTypePackage.eINSTANCE.getXMLTypeDocumentRoot_Text(), newBody);
+        getMixed().add(XMLTypePackage.eINSTANCE.getXMLTypeDocumentRoot_CDATA(), newBody);
     }
 
     /**
